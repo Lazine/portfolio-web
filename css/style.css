@@ -412,7 +412,7 @@ hr.socket{
 .hovertop-mobile{
     position: absolute;
     bottom: 0;
-    /* opacity: 10; */
+    opacity: 10;
     height: 100%;
     width: 100%;
 	background: rgba(16, 91, 99, 0.8);

@@ -21,12 +21,12 @@ function scrollFunction() {
 // hovermobile.addEventListener('touchmove',touchMove);
 // hovermobile.addEventListener('touchend',touchEnd);
 
-$(".workpic").on("click",touchStart);
+$(".workpic").on("touchstart",touchStart);
 // $(".pr-account-tab").on("touchmove", touchMove);
 // $(".workpic").on("touchend", touchEnd);
 
 function touchStart(event) {
-  $(".hovertop").addClass(".hovertop-mobile"+".hovertop-mobile h3");
+  $(".hovertop").addClass("hovertop-mobile");
 }
 
 // function touchEnd(event) {
