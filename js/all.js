@@ -15,8 +15,12 @@ function scrollFunction() {
 var hovermobile = document.querySelector('.workpic');
 var hovertop = document.querySelector('.hovertop');
 
-hovermobile.addEventListener('touchstart',function touchStart(event){
+hovermobile.addEventListener('touchstart',function(event){
   hovertop.style.opacity= "10";
+},false);
+
+hovermobile.addEventListener('touchend',function(event){
+  hovertop.style.opacity= "0";
 },false);
 
 // hovermobile.addEventListener('click',function touchStart(event){
@@ -24,7 +28,7 @@ hovermobile.addEventListener('touchstart',function touchStart(event){
 // });
 
 // hovermobile.addEventListener('touchmove',touchMove);
-hovermobile.addEventListener('touchend',touchEnd);
+// hovermobile.addEventListener('touchend',touchEnd);
 
 // $(".workpic").on("click",function touchStart(event) {
 //   $(".hovertop").addClass("hovertop-mobile");
