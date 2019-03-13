@@ -271,7 +271,7 @@ h3+p{
     background-attachment: fixed; /* 固定圖像 */
     background-position: center top; /* 圖像置中 */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
 
 .fixed-wrap{
@@ -408,8 +408,8 @@ hr.socket{
 
 .svgphoto{
     /* overflow: hidden; */
-    top: 10vh;
-    left: 0.4vw;
+    top: 80px;
+    left: 4px;
 }
 
 /* .btn-lg{
