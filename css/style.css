@@ -270,8 +270,8 @@ h3+p{
     min-height: 530px;
     background-attachment: fixed; /* 固定圖像 */
     background-position: center top; /* 圖像置中 */
-    background-size: auto;
-    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .fixed-wrap{
