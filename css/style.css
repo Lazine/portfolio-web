@@ -87,7 +87,6 @@ body{
   }
 
 .home-inner {
-    
     position: fixed;
     display: table;
     top: 0;
@@ -179,6 +178,12 @@ path{
     text-transform: uppercase;
 }
 
+.btn-lg:hover{
+    transition: 0.3s;
+    transform: scale(1.2,1.2);
+}
+
+
 /* about me */
 
 .narrow{
@@ -208,6 +213,8 @@ path{
 .btn-outline-secondary:hover{
     background-color: #FFD34E;
     border-color: #FFD34E;
+    transition: 0.3s;
+    transform: scale(1.1,1.1);
 }
 
 .jumbotron{
@@ -320,6 +327,8 @@ h3+p{
 .btn-sm:hover{
     background-color: rgba(255, 211, 78, 0.8);
     border-color: #FFD34E;
+    transition: 0.3s;
+    transform: scale(1.1,1.1);
 }
 
 .hovertop:hover{
