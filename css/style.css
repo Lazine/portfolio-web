@@ -389,6 +389,11 @@ hr.socket{
     padding-bottom: 1.2rem;
 }
 
+.svgphoto{
+    /* overflow: hidden; */
+    /* left: 0.4rem; */
+}
+
 /* .btn-lg{
     padding: .5rem 1rem;
     font-size: 1rem;
@@ -403,17 +408,24 @@ hr.socket{
     width: 100%;
 }
 
-.hovertop{
+.hovertop-mobile{
     position: absolute;
     bottom: 0;
     height: 100%;
     width: 100%;
+	background: rgba(16, 91, 99, 0.8);
+	color: #FFD34E;
+    margin: auto;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
 }
 
-.hovertop h3{
+.hovertop-mobile h3{
     font-size: 1.2rem;
     text-align: center;
     margin-top: 6rem;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .btn-sm{
