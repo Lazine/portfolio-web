@@ -10,24 +10,26 @@ function scrollFunction() {
   }
 }
 
-//hover for mobile
+//hoverclick for mobile
 
 var hovermobile = document.querySelector('.workpic');
 var hovertop = document.querySelector('.hovertop');
 
-// hovermobile.addEventListener('touchstart',function(event){
-//   hovertop.style.opacity= "10";
-// },false);
-
-// hovermobile.addEventListener('touchend',function(event){
-//   hovertop.style.opacity= "0";
-// },false);
-
-hovermobile.addEventListener('click',function touchStart(event){
-  hovertop.style.opacity= "10";
-});
+hovermobile.addEventListener('touchstart',function(event){
+  hovertop.style.opacity= 10;
+},false);
 
 // hovermobile.addEventListener('touchmove',touchMove);
+
+hovermobile.addEventListener('touchend',function(event){
+  hovertop.style.opacity= 0;
+},false);
+
+// hovermobile.addEventListener('click',function touchStart(event){
+//   hovertop.style.opacity= "10";
+// });
+
+
 // hovermobile.addEventListener('touchend',touchEnd);
 
 // $(".workpic").on("click",function touchStart(event) {
