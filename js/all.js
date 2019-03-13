@@ -13,7 +13,7 @@ function scrollFunction() {
 //hover for mobile
 
 var hovermobile = document.querySelector('.workpic');
-var hovertop = document.querySelector('.hovertop-mobile');
+var hovertop = document.querySelector('.hovertop');
 
 // hovermobile.addEventListener('touchstart',function(event){
 //   hovertop.style.opacity= "10";
