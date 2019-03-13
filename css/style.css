@@ -293,8 +293,16 @@ h3+p{
     transition-timing-function: ease-out;
 }
 
+/* .hoverdiv{
+    height: 90%;
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+    background-color: #000;
+} */
+
 .hovertop h3{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
@@ -306,7 +314,7 @@ h3+p{
     text-transform: uppercase;
     color: #FFD34E;
     border-color: #FFD34E;
-    margin: 0.4rem auto;
+    margin: 0.6rem auto;
 }
 
 .btn-sm:hover{
@@ -409,10 +417,10 @@ hr.socket{
     width: 100%;
 }
 
-.hovertop-mobile{
+.hovertop{
     position: absolute;
     bottom: 0;
-    /* opacity: 10; */
+    opacity: 0;
     height: 100%;
     width: 100%;
 	background: rgba(16, 91, 99, 0.8);
@@ -422,7 +430,7 @@ hr.socket{
     transition-timing-function: ease-out;
 }
 
-.hovertop-mobile h3{
+.hovertop h3{
     font-size: 1.2rem;
     text-align: center;
     margin-top: 6rem;
@@ -431,7 +439,8 @@ hr.socket{
 }
 
 .btn-sm{
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin: 0.6rem auto;
 }
 
 .collapseOne{

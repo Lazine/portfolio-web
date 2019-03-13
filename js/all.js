@@ -19,8 +19,12 @@ hovermobile.addEventListener('touchstart',function touchStart(event){
   hovertop.style.opacity= "10";
 },false);
 
+// hovermobile.addEventListener('click',function touchStart(event){
+//   hovertop.classList.add("hovertop-mobile");
+// });
+
 // hovermobile.addEventListener('touchmove',touchMove);
-// hovermobile.addEventListener('touchend',touchEnd);
+hovermobile.addEventListener('touchend',touchEnd);
 
 // $(".workpic").on("click",function touchStart(event) {
 //   $(".hovertop").addClass("hovertop-mobile");
