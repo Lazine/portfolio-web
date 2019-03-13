@@ -412,7 +412,7 @@ hr.socket{
 .hovertop-mobile{
     position: absolute;
     bottom: 0;
-    opacity: 10;
+    /* opacity: 10; */
     height: 100%;
     width: 100%;
 	background: rgba(16, 91, 99, 0.8);
@@ -422,7 +422,7 @@ hr.socket{
     transition-timing-function: ease-out;
 }
 
-.hovertop-mobile-h3{
+.hovertop-mobile h3{
     font-size: 1.2rem;
     text-align: center;
     margin-top: 6rem;
