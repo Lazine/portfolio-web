@@ -12,19 +12,23 @@ function scrollFunction() {
 
 //hover for mobile
 
-let hovermobile = document.querySelector('.workpic');
-let hovertop = document.querySelector('.hovertop');
+// var hovermobile = document.querySelector('.workpic');
+// var hovertop = document.querySelector('.hovertop');
 
-hovermobile.addEventListener('click',touchStart,false);
-// hovermobile.addEventListener('touchmove',touchMove,false);
-// hovermobile.addEventListener('touchend',touchEnd,false);
+// hovermobile.addEventListener('touchstart',function touchStart(event){
+//   hovertop.addClass('.hovertop-mobile'+'.hovertop-mobile h3');
+// });
+// hovermobile.addEventListener('touchmove',touchMove);
+// hovermobile.addEventListener('touchend',touchEnd);
 
+$(".workpic").on("touchstart", touchStart);
+// $(".pr-account-tab").on("touchmove", touchMove);
+$(".workpic").on("touchend", touchEnd);
 
 function touchStart(event) {
-  hovertop.addClass(".hovertop-mobile"+".hovertop-mobile h3");
+  $(.hovertop).addClass(".hovertop-mobile"+".hovertop-mobile h3");
 }
 
-// function touchEnd(event) {
-//   hovertop.removeClass(".hovertop-mobile"+".hovertop-mobile h3");
-// }
-
+function touchEnd(event) {
+  $(.hovertop).removeClass(".hovertop-mobile"+".hovertop-mobile h3");
+}
