@@ -21,14 +21,14 @@ function scrollFunction() {
 // hovermobile.addEventListener('touchmove',touchMove);
 // hovermobile.addEventListener('touchend',touchEnd);
 
-$(".workpic").on("touchstart", touchStart);
+$(".workpic").on("touchstart",touchStart);
 // $(".pr-account-tab").on("touchmove", touchMove);
-$(".workpic").on("touchend", touchEnd);
+// $(".workpic").on("touchend", touchEnd);
 
 function touchStart(event) {
-  $(.hovertop).addClass(".hovertop-mobile"+".hovertop-mobile h3");
+  $(".hovertop").addClass(".hovertop-mobile"+".hovertop-mobile h3");
 }
 
-function touchEnd(event) {
-  $(.hovertop).removeClass(".hovertop-mobile"+".hovertop-mobile h3");
-}
+// function touchEnd(event) {
+//   $(.hovertop).removeClass(".hovertop-mobile"+".hovertop-mobile h3");
+// }
