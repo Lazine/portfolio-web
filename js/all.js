@@ -15,15 +15,25 @@ function scrollFunction() {
 var hovermobile = document.querySelectorAll('.workpic');
 var hovertop = document.querySelector('.hovertop');
 
-hovermobile.addEventListener('touchstart',function(event){
-  hovertop.style.opacity= 10;
-},false);
+for(let i=0 ; i<hovermobile.length ; i++){
+  hovermobile[i].addEventListener('touchstart',function(event){
+    hovertop.style.opacity= 10;
+  },false);
+
+  hovermobile[i].addEventListener('touchend',function(event){
+    hovertop.style.opacity= 0;
+  },false);
+}
+
+// hovermobile.addEventListener('touchstart',function(event){
+//   hovertop.style.opacity= 10;
+// },false);
 
 // hovermobile.addEventListener('touchmove',touchMove);
 
-hovermobile.addEventListener('touchend',function(event){
-  hovertop.style.opacity= 0;
-},false);
+// hovermobile.addEventListener('touchend',function(event){
+//   hovertop.style.opacity= 0;
+// },false);
 
 // hovermobile.addEventListener('click',function touchStart(event){
 //   hovertop.style.opacity= "10";
