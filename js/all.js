@@ -13,7 +13,7 @@ function scrollFunction() {
 //hover for mobile
 
 var hovermobile = document.querySelector('.workpic');
-var hovertop = document.querySelector('.hovertop');
+var hovertop = document.querySelector('.hovertop-mobile');
 
 // hovermobile.addEventListener('touchstart',function(event){
 //   hovertop.style.opacity= "10";
@@ -24,7 +24,7 @@ var hovertop = document.querySelector('.hovertop');
 // },false);
 
 hovermobile.addEventListener('click',function touchStart(event){
-  hovertop.classList.add("hovertop-mobile");
+  hovertop.style.opacity= "10";
 });
 
 // hovermobile.addEventListener('touchmove',touchMove);

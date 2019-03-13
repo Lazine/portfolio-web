@@ -431,16 +431,16 @@ hr.socket{
 }
 
 .hovertop-mobile{
-    /* position: absolute;
-    bottom: 0; */
-    opacity: 10;
-    /* height: 100%;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    height: 100%;
     width: 100%;
 	background: rgba(16, 91, 99, 0.8);
 	color: #FFD34E;
     margin: auto;
     transition-duration: 0.5s;
-    transition-timing-function: ease-out; */
+    transition-timing-function: ease-out;
 }
 
 .hovertop h3{
