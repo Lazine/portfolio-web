@@ -12,11 +12,11 @@ function scrollFunction() {
 
 //hover for mobile
 
-let hovermobile = document.querySelector('.workpic');
+let hovermobile = document.querySelector('#collapseTwo');
 let hovertop = document.querySelector('.hovertop');
 
 hovermobile.addEventListener('touchstart',touchStart,false);
-hovermobile.addEventListener('touchmove',touchMove,false);
+// hovermobile.addEventListener('touchmove',touchMove,false);
 hovermobile.addEventListener('touchend',touchEnd,false);
 
 
