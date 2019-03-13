@@ -391,7 +391,8 @@ hr.socket{
 
 .svgphoto{
     /* overflow: hidden; */
-    /* left: 0.4rem; */
+    top: 3rem;
+    left: 0.4rem;
 }
 
 /* .btn-lg{
@@ -440,7 +441,7 @@ hr.socket{
     display: hidden;
 }
 
-img .rol{
+.rol{
     width: 100%;
 }
 
