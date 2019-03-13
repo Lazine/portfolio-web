@@ -302,19 +302,19 @@ h3+p{
 } */
 
 .hovertop h3{
-    font-size: 1.4rem;
+    font-size: 1.8vw;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 1vw;
 }
 
 .btn-sm{
-    font-size: 1rem;
+    font-size: 1vw;
     text-transform: uppercase;
     color: #FFD34E;
     border-color: #FFD34E;
-    margin: 0.6rem auto;
+    margin: 0.2vw auto;
 }
 
 .btn-sm:hover{
@@ -445,8 +445,8 @@ hr.socket{
 
 .hovertop h3{
     font-size: 1.2rem;
-    text-align: center;
-    margin-top: 6rem;
+    /* text-align: center; */
+    margin-top: 7rem;
     text-transform: uppercase;
     text-align: center;
 }
