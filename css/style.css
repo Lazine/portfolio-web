@@ -266,7 +266,7 @@ h3+p{
 /* background*/
 
 .fixed-background{
-    background-image: url(/image/sea3.jpg);
+    background-image: url(../image/sea3.jpg);
     min-height: 530px;
     background-attachment: fixed; /* 固定圖像 */
     background-position: center center; /* 圖像置中 */

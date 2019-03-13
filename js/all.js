@@ -12,7 +12,7 @@ function scrollFunction() {
 
 //hoverclick for mobile
 
-var hovermobile = document.querySelector('.workpic');
+var hovermobile = document.querySelectorAll('.workpic');
 var hovertop = document.querySelector('.hovertop');
 
 hovermobile.addEventListener('touchstart',function(event){
