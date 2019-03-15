@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
 
     <title>Hello, this is Lazine Design!</title>
@@ -82,7 +83,7 @@
       <div class="jumbotron">
         <div class="narrow">
 
-          <div class="col-12 narrow text-center">
+          <div class="wow rubberBand col-12 narrow text-center" data-wow-duration="1.5s">
             <h2>ABOUT ME</h2>
             <p class="lead">畢業於產品設計科系，任職工業設計相關經驗。</p>
             <a class="btn btn-outline-secondary btn-md" href="#" target="_blank">my resume</a>
@@ -143,15 +144,15 @@
     <!-- End Skill section -->
 
     <!-- 4.start Works section -->
-    <div id="works" class="offset">
-      <div class="works-wrap justify-content-center">
+    <div id="works" class="offset ">
+      <div class="works-wrap justify-content-center wow fadeInUpBig" data-wow-duration="2s">
 
         <div class="col-12 text-center">
             <h2 class="heading four">works</h2>
             <div class="heading-underline"></div>
         </div>
 
-        <div id="accordion" class="col-11 justify-content-center">
+        <div id="accordion" class=" col-11 justify-content-center">
           <ul class="card-group row">
             <li class="col-md-4 justify-content-center">
                 <div class="card border-0" id="headingOne">
@@ -322,6 +323,11 @@
 
 
     <!-- Optional JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+
     <script src="js/all.js"></script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
