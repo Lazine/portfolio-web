@@ -340,7 +340,8 @@ span p{
 }
 
 .rol{
-    width: 100%;
+    width: auto;
+    height: 700px;
     margin: 0 0 2rem 0;
 }
 
