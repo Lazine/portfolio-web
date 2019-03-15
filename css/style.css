@@ -433,7 +433,7 @@ hr.socket{
 }
 
 .fixed-background{
-    min-height: 900px;
+    min-height: 1200px;
     background-position: center;
     background-size: auto;
 }
@@ -496,6 +496,16 @@ span p{
 
 .rol{
     width: 100%;
+    height: auto;
+}
+
+span p{
+    padding: 1rem 1.6rem;
+}
+
+footer p{
+    word-spacing: -0.2rem;
+    padding: 0 3rem;
 }
 
 }
