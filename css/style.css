@@ -433,8 +433,8 @@ hr.socket{
 }
 
 .fixed-background{
-    min-height: 800px;
-    background-position: center 50px;
+    min-height: 700px;
+    background-position: center 300px;
     background-size: auto;
 }
 
