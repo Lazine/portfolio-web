@@ -98,7 +98,7 @@ body{
     -webkit-transform: translateZ(0);
             transform: translateZ(0);
     /* will-change: transform; */
-    /* background-color: #105B63; */
+    background-color: #105B63;
 }
 
 .home-inner{
@@ -428,6 +428,7 @@ h6{
 .home-inner{
     background-image: url(../image/sea3.jpg);
     min-height: 700px;
+    background-attachment: fixed;
     background-position: center top;
     background-size: auto;
 }
@@ -533,6 +534,7 @@ footer{
     background-image: url(../image/sea3.jpg);
     background-position: center bottom; 
     background-size: auto;
+    background-attachment: fixed;
 }
 
 span p{
