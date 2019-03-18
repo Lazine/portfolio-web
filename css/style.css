@@ -101,8 +101,13 @@ body{
     background-color: #105B63;
 }
 
-.home-inner img{
-    width: 100%;
+.home-inner{
+    background-image: url(../image/sea3.jpg);
+    min-height: 530px;
+    background-attachment: fixed; /* 固定圖像 */
+    background-position: center; /* 圖像置中 */
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 
@@ -176,6 +181,7 @@ path{
     font-weight: 600;
     text-align: center;
     text-transform: uppercase;
+    /* display: none; */
 }
 
 .btn-lg:hover{
@@ -187,9 +193,10 @@ path{
 /* about me */
 
 .narrow{
-    width: 90%;
+    /* width: auto; */
     margin: 1rem auto;
-    padding-top: .4rem;
+    padding-top: .4rem; 
+    /* background-color: rgba(255, 255, 255, 0.8); */
 }
 
 .narrow h2{
@@ -198,6 +205,10 @@ path{
     color: #105B63;
     margin-bottom: 1.4rem;
 }
+
+/* .narrow p{
+    color: #105B63;
+} */
 
 .btn-outline-secondary{
     border-width: medium;
@@ -219,7 +230,9 @@ path{
 
 .jumbotron{
     margin-bottom: 0;
-    /* padding: -5rem 0; */
+    background-color: rgba(255, 255, 255, 0.4);
+    /* border-radius: 0; */
+    padding: -5rem 0;
 }
 
 /* skill */
@@ -360,12 +373,18 @@ span p{
 /* footer */
 
 footer{
+    color: #FFF;
     max-width: 100%;
     overflow-x: hidden;
-    background-color: #40474e;
-    color: #FFF;
+    /* background-color: #40474e; */
     margin-top: 4rem;
     padding: 2rem 0 0.4rem 0;
+    background-image: url(../image/sea3.jpg);
+    min-height: 430px;
+    background-attachment: fixed; /* 固定圖像 */
+    background-position: center; /* 圖像置中 */
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 footer img{
@@ -396,8 +415,12 @@ footer a:hover{
 hr.socket{
     overflow-x: hidden;
     width: 100%;
-    border-top: 1px solid #fff;
+    border-top: 1px solid #FFD34E;
     margin: 3rem 0 0.4rem 0;
+}
+
+h6{
+    color: #FFD34E;
 }
 
 @media screen and (max-width:767px){

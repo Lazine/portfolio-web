@@ -38,16 +38,3 @@ for(let i=0 ; i<hovermobile.length ; i++){
 // hovermobile.addEventListener('click',function touchStart(event){
 //   hovertop.style.opacity= "10";
 // });
-
-
-// hovermobile.addEventListener('touchend',touchEnd);
-
-// $(".workpic").on("click",function touchStart(event) {
-//   $(".hovertop").addClass("hovertop-mobile");
-// });
-// $(".pr-account-tab").on("touchmove", touchMove);
-// $(".workpic").on("touchend", touchEnd);
-
-// function touchEnd(event) {
-//   $(.hovertop).removeClass(".hovertop-mobile"+".hovertop-mobile h3");
-// }
