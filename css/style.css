@@ -348,6 +348,17 @@ span p{
     transform: scale(1.1,1.1); */
 }
 
+.btn-success{
+    margin-top: -1rem;
+    text-transform: uppercase;
+    background-color: #FFD34E;
+    border-color: #FFD34E;
+}
+
+.btn-success:hover{
+    background-color: #105B63;
+}
+
 .hovertop:hover{
     opacity: 10;
 }
