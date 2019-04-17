@@ -65,6 +65,7 @@ body{
 
 .navbar-light .navbar-toggler{
     border-color: #FFD34E;
+    /* border: 1.1px solid #FFD34E; */
 }
 
 .navbar-toggler span{
@@ -391,7 +392,7 @@ span p{
 
 .rol{
     width: auto;
-    height: 700px;
+    max-height: 700px;
     margin: 0 0 2rem 0;
 }
 
